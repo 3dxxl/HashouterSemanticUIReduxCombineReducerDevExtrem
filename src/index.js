@@ -11,6 +11,8 @@ import DritteSeite from './DritteSeite';
 //semantic UI
 import 'semantic-ui-css/semantic.min.css';
 
+//devExtrem
+import '@devexpress/dx-react-chart-bootstrap4/dist/dx-react-chart-bootstrap4.css';
 
 
 //Routes als Navigation

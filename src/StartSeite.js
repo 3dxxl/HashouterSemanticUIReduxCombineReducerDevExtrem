@@ -9,9 +9,12 @@ import { Button } from 'semantic-ui-react'
 //Semantic Responsive
 import { Responsive, Segment } from 'semantic-ui-react'
 
-//Smartphone Media Queries
+//Meine eigene Smartphone Media Queries
 import './smartphone.css';
 
+
+//chart DevExtrem
+import Diagramm from './chart'
 
 
 //TIPP: Semantic UI <img>  muß auf <img/> geändert werden
@@ -84,6 +87,15 @@ import './smartphone.css';
 
 
                 <div className="media" style={{width:100, height:200}}></div>
+
+                <div style={{width:"100%"}} >
+                <div style={{ marginLeft:"33.33%"}}
+                className="ui grid">
+                  <div class="four wide column">
+                    <Diagramm/>
+                  </div>
+                </div>
+                </div>
 
 
             </div>
